@@ -15,7 +15,7 @@ function Get-OSMedia {
         [switch]$GridView,
         
         #Filter the OSMedia by OS Architecture
-        [ValidateSet('x64','x86')]
+        [ValidateSet('x64','x86','x64 ARM')]
         [string]$OSArch,
         
         #Returns the latest OSMedia

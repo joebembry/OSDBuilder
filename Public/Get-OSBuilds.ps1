@@ -15,8 +15,8 @@ function Get-OSBuilds {
         [switch]$GridView,
         
         #Filter the OSBuild by OS Architecture
-        [ValidateSet('x64','x86')]
-        [string]$OSArch = 'x64',
+        [ValidateSet('x64','x86','x64 ARM')]
+        [string]$OSArch,
         
         #Returns the latest OSBuild
         [switch]$Newest,

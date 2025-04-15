@@ -67,7 +67,7 @@ function Use-OSDUpdateBuilder {
         [string]$UpdateOS,
 
         [Parameter(Mandatory)]
-        [ValidateSet('x64','x86')]
+        [ValidateSet('x64','x86','x64 ARM')]
         [string]$UpdateArch,
 
         [Parameter(Mandatory)]
